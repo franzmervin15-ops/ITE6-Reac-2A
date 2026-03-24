@@ -1,0 +1,14 @@
+
+.buttonComponent {
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttonComponent:active {
+    scale: 0.98;
+}
