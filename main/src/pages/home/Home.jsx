@@ -1,26 +1,18 @@
-import { useState } from "react";
 import "./Home.css";
-import Button from "../../components/button/Button";
-import { Link } from "react-router-dom";
 
 const Home = () => {
-
-    const [count, setCount] = useState(0);
-
-    const increment = () => {
-        setCount(count + 1);
-    };
-
-    const decrement = () => {
-        setCount(count - 1);
-    };
-
   return (
     <main className="container">
-        <h1>BSIT 2-A</h1>
-        <h2>Text: {count}</h2>
-        <Button btnName="Addition Count" onclick={increment}/>
-        <Button btnName="Subtraction Count" onclick={decrement}/>
+      <h1>2A Group 7 Members</h1>
+      <p>Our group is composed of dedicated members who work collaboratively to achieve our project goals.</p>
+      <section>
+                <ul>
+                        <li><strong>Member 1:</strong> Jonuel Ortiz</li>
+                        <li><strong>Member 2:</strong> Jane Rose Repaja</li>
+                        <li><strong>Member 3:</strong> Loui Legatuna</li>
+                        <li><strong>Member 4:</strong> Franz Mervin Dela Cruz</li> 
+                </ul>
+      </section>
     </main>
   );
 }
