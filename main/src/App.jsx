@@ -1,7 +1,15 @@
-import Home from "./pages/home/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Activity2 from "./pages/Activity2/Activity2"
 
 const App = () => {
-  return <Home />;
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Activity2 />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

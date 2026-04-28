@@ -1,0 +1,39 @@
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.formCard {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 320px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
