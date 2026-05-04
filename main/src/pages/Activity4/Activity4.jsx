@@ -25,8 +25,7 @@ const Activity4 = () => {
   return (
     <main className="container4">
       <header className="activity-header">
-        <h1>Top Anime Movies (Activity 4)</h1>
-        <p>Displaying top-rated anime movies using <code>async/await</code> and <code>useEffect</code>.</p>
+        <h1>Top Anime Movies</h1>
       </header>
 
       {loading ? (
