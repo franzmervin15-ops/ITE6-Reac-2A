@@ -1,6 +1,5 @@
 .container4 {
-  max-width: 1000px;
-  height: fit-content;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
@@ -22,10 +21,11 @@
   font-size: 1.1rem;
 }
 
-.anime-display {
-  display: flex;
-  justify-content: center;
-  perspective: 1000px;
+.anime-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
 }
 
 .loading-spinner {
