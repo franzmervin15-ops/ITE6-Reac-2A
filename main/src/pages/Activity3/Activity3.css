@@ -1,0 +1,41 @@
+.container3 {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #213547;
+}
+
+.container3 h1 {
+  text-align: center;
+  color: #646cff;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.container3 p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

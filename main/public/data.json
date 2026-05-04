@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Jonuel Ortiz",
+    "role": "Frontend Developer",
+    "email": "jonuelortiz1@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Jane Rose Repaja",
+    "role": "UI Designer",
+    "email": "janeroserepaja2@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "Loui Legatuna",
+    "role": "Backend Developer",
+    "email": "louilegatuna3@gmail.com"
+  },
+  {
+    "id": 4,
+    "name": "Franz Mervin Dela Cruz",
+    "role": "Project Manager",
+    "email": "franzmervindelacruz4@gmail.com"
+  }
+]

@@ -1,0 +1,52 @@
+.container4 {
+  max-width: 1000px;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.activity-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.activity-header h1 {
+  color: #646cff;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.anime-display {
+  display: flex;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #646cff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
