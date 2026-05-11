@@ -25,7 +25,7 @@ const Activity4 = () => {
   return (
     <main className="container4">
       <header className="activity-header">
-        <h1>Top Anime Movies</h1>
+        <h1>Top Anime Movies </h1>
       </header>
 
       {loading ? (

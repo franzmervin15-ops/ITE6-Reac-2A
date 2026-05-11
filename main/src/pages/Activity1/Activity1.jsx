@@ -2,7 +2,7 @@ import './Activity1.css';
 
 const Activity1 = () => {
   return (
-        <main className="container1">
+    <main className="container1">
       <h1>2A Group 7 Members</h1>
       <section>
         <ul>
@@ -14,7 +14,7 @@ const Activity1 = () => {
         </ul>
       </section>
     </main>
-);
+  );
 }
 
 export default Activity1;
