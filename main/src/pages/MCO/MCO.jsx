@@ -28,7 +28,7 @@ const MCO = () => {
           </div>
           <h1 className="tech-title" data-text="GROUP_07">GROUP 7</h1>
           <div className="tech-divider"></div>
-          <p className="tech-subtitle">COMPILATION OF ACTIVITES</p>
+          <p className="tech-subtitle">COMPILATION OF ACTIVITIES</p>
         </header>
 
         <section className="tech-members">
