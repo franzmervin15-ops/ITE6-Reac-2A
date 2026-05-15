@@ -10,43 +10,61 @@ const MCO = () => {
   ];
 
   const activities = [
-    { id: 1, title: "Activity 1", path: "/activity1", description: "Group Members List" },
-    { id: 2, title: "Activity 2", path: "/activity2", description: "Registration Form" },
-    { id: 3, title: "Activity 3", path: "/activity3", description: "JSON Data Directory" },
-    { id: 4, title: "Activity 4", path: "/activity4", description: "Top Anime Movies API" }
+    { id: 1, title: "Activity 1", path: "/activity1", description: "GROUP MEMBER" },
+    { id: 2, title: "Activity 2", path: "/activity2", description: "REGISTRATION FORM" },
+    { id: 3, title: "Activity 3", path: "/activity3", description: "JSON FILE" },
+    { id: 4, title: "Activity 4", path: "/activity4", description: "API LINK" }
   ];
 
   return (
-    <div className="landing-container">
-      <div className="akatsuki-cloud-top"></div>
+    <div className="tech-container">
+      <div className="grid-overlay"></div>
+      <div className="scanline"></div>
       
-      <header className="landing-header">
-        <h1 className="main-title">Compilation of Activities</h1>
-        <h2 className="group-name">Group 7</h2>
-      </header>
+      <main className="tech-main">
+        <header className="tech-header">
+          <div className="status-bar">
+            <span className="blink">●</span> SYSTEM_ONLINE | PORT: 3000
+          </div>
+          <h1 className="tech-title" data-text="GROUP_07">GROUP 7</h1>
+          <div className="tech-divider"></div>
+          <p className="tech-subtitle">COMPILATION OF ACTIVITES</p>
+        </header>
 
-      <section className="members-section">
-        <h3>Members</h3>
-        <div className="members-list">
-          {members.map((member, index) => (
-            <span key={index} className="member-tag">{member}</span>
-          ))}
-        </div>
-      </section>
+        <section className="tech-members">
+          <h2 className="tech-label">MEMBERS  </h2>
+          <div className="tech-member-list">
+            {members.map((member, index) => (
+              <div key={index} className="tech-member-item">
+                <span className="member-id">ID_0{index + 1}</span>
+                <span className="member-name">{member}</span>
+              </div>
+            ))}
+          </div>
+        </section>
 
-      <nav className="activities-grid">
-        {activities.map((activity) => (
-          <Link to={activity.path} key={activity.id} className="activity-link-card">
-            <div className="card-content">
-              <h3>{activity.title}</h3>
-              <p>{activity.description}</p>
-            </div>
-            <div className="card-hover-effect"></div>
-          </Link>
-        ))}
-      </nav>
+        <section className="tech-activities">
+          <h2 className="tech-label">ACTIVITIES</h2>
+          <div className="tech-grid">
+            {activities.map((activity) => (
+              <Link to={activity.path} key={activity.id} className="tech-card">
+                <div className="tech-card-header">
+                  <span className="module-tag">MOD_0{activity.id}</span>
+                  <div className="corner-decor"></div>
+                </div>
+                <h3>{activity.title}</h3>
+                <p>{activity.description}</p>
+                <div className="tech-btn">ACCESS_MODULE</div>
+              </Link>
+            ))}
+          </div>
+        </section>
 
-      <div className="akatsuki-cloud-bottom"></div>
+        <footer className="tech-footer">
+          <div className="footer-line"></div>
+          <p>ITE6-REACT BSIT2A</p>
+        </footer>
+      </main>
     </div>
   );
 };

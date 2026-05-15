@@ -10,8 +10,14 @@
     background-color: white;
 }
 
-h1  {
-    color: maroon;
+h1 {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px black;
+    background-color: maroon;
+    font-size: 50px;
+    color:  white;
 }
 
 ul {
@@ -20,13 +26,11 @@ ul {
     border-radius: 20px;
     box-shadow: 0 5px 8px black;
     background-color: maroon;
-    color: white;
 }
 
 p {
     font-size: 20px;
 }
-
 
 li {
     font-size: 20px;
